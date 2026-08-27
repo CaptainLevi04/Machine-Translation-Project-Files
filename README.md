@@ -2,6 +2,9 @@
 
 A from-scratch Neural Machine Translation project built to understand the full NLP pipeline behind machine translation rather than simply optimize for the highest possible BLEU score.
 
+   <img width="577" height="882" alt="image" src="https://github.com/user-attachments/assets/86b3f2b9-3116-4ecc-b70d-8b17577d1dfb" />
+
+
 The core project implements a **Seq2Seq LSTM Encoder–Decoder with Bahdanau Attention**, trained on Arabic–English parallel data and evaluated using **BLEU**. The project was then extended through dataset analysis, dataset replacement, dataset fusion, a Transformer implementation, bidirectional translation, live deployment, paragraph-level translation, and transfer learning.
 
 ## Project Philosophy
@@ -24,9 +27,6 @@ The core project implements a **Seq2Seq LSTM Encoder–Decoder with Bahdanau Att
 - **Greedy Search:** simple and fast decoding.
 - **Beam Search:** searches multiple candidate sequences and generally gives better translations at higher computational cost.
 
-## Project Requirements
-
-![Project Requirements](../Project%20Requirments.png)
 
 ## Project Development Journey
 
